@@ -1,0 +1,28 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+#btn1{
+    background-color: beige;
+}
+#btn2{
+    background-color: bisque;
+}
+#btn3{
+    background-color: aqua;
+}
+h1{
+    text-align: center;
+    padding-top: 40vh;
+}
+#btn1,#btn2,#btn3{
+    margin:20px;
+    padding:20px;
+    font-size: 30px;
+}
+*{
+    background-color: snow;
+}
