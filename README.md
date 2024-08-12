@@ -16,11 +16,14 @@ Create a simple area calculator using JavaScript, covering the topics of variabl
    - Create a new folder for the project.
    - Create an `index.html` and a `styles.css` files inside this folder.
    - Link the `styles.css` file to the `index.html` file.
+     
 2. **Calculate area of triangle**
    - create a triangle.js file where you will take user input for base and height to calculate area of triangle. (area of triangle = 0.5 * base * height)
-4.  **Calculate area of rectangle**
+     
+3.  **Calculate area of rectangle**
    - create a rectangle.js file where you will take user input for length and width to calculate area of rectangle. (area of rectangle = length*width)
-5.  **Calculate area of Circle**
+     
+4.  **Calculate area of Circle**
    - create a circle.js file where you will take user input for radius to calculate area of circle. (area of circle = 3.1416 * radius * radius)
 
 ### Submission
