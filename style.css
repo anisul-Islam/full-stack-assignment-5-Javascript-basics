@@ -1,0 +1,16 @@
+body{
+    background-color: greenyellow;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.arrange{
+    background-color: goldenrod;
+    width: 400px;
+    height: 200px;
+}
+button{
+    width: 8rem;
+    height: 2rem;
+}
