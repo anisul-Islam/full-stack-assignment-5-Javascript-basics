@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+  color: brown;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 70vh; */
+  gap: 20px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background-color: bisque;
+  border: 1px solid purple;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 300px;
+  color: purple;
+}
