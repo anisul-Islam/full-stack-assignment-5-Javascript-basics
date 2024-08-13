@@ -1,5 +1,6 @@
-// area of circle.
-let radius = parseInt(prompt("enter radius"));
+// Area of circle
+const radius = parseInt(prompt("enter radius"));
 
-let area = 3.1416 * radius * radius;
-console.log(`area of circle= ${area}`);
+const circleArea = 3.1416 * radius * radius;
+console.log(`area of circle= ${circleArea}`);
+document.write(`Area of circle= ${circleArea}\n`);
