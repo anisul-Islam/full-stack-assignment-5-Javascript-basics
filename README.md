@@ -1,5 +1,7 @@
 # live preview
 
+https://full-stack-assignment-5-javascript-basics.vercel.app/
+
 # Javascript Assignments
 
 ## A. Javascript Basic Part
