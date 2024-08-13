@@ -6,6 +6,6 @@ const height = Number(prompt("Please enter triangle height : "));
 
 const triangleArea = 0.5 * (base * height);
 
-document.getElementById('triangleArea').innerHTML = (`triangle area = ${triangleArea}`);
+document.getElementById('triangleArea').innerHTML = (`Triangle Area = ${triangleArea}`);
 
 

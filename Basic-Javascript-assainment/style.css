@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 1200px;
+  height: 700px;
+  border: 1px solid green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculate-area{
+ width: 500px;
+  height: 400px;
+  background-color: darkseagreen;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+#rectangleArea{
+  border: 2px solid black;
+  width: calc( 100% - 2px );
+  height: 100px;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  
+}
+#triangleArea{
+  border: 2px solid black;
+  width: calc( 100% - 2px );
+  height: 100px;
+  margin-bottom: 20px;
+}
+#circleArea{
+  border: 2px solid black;
+  width: calc( 100% - 2px );
+  height: 100px;
+  margin-bottom: 20px;
+}
