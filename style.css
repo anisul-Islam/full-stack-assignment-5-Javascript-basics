@@ -1,0 +1,22 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.calculate-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculate-items {
+    background-color: aqua;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 2px, 2px, 2px, 0px;
+}
