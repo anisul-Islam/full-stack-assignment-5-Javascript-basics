@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator{
+    width: 600px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    margin:10% auto;
+    background: #310606;
+    padding: 10px 0;
+
+    h1{
+        text-align: center;
+        color: chartreuse;
+    }
+    #rectangle, #triangle,
+    #circle{
+        background:#fff;
+        width: 300px;
+        margin:10px auto;
+        padding: 15px 10px;
+        font-size: 19px;
+        color: rgb(8, 197, 255);
+        text-align: center;
+        font-weight: 800;
+    }
+}
