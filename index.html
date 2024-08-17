@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Auther Name : Abrar Shakil Ahmed -->
+</head>
+
+<body>
+    <main>
+        <div class="heading">
+            <h1>JavaScript Basic Assignment 5</h1>
+        </div>
+        <div class="calculator-option">
+            <button onclick="document.querySelector('.triangle').style.display='block'">Calculate area of
+                triangle</button>
+            <button onclick="document.querySelector('.rectangle').style.display='block'">Calculate area of
+                rectangle</button>
+            <button onclick="document.querySelector('.circle').style.display='block'">Calculate area of circle</button>
+        </div>
+
+        <section class="calculation">
+            <!-- Area of triangle -->
+            <div class="triangle">
+                <label for="">Area of triangle = 1/2 *</label>
+                <input type="number" placeholder="Base" id="t-base">
+                <label for="">*</label>
+                <input type="number" placeholder="Height" id="t-height">
+                <label for="">=</label>
+                <label id="t-show">Answer</label>
+                <br>
+                <button class="t-final-button">Calculate</button>
+                <br>
+                <button class="hide" onclick="document.querySelector('.triangle').style.display='none'">❌Hide</button>
+            </div>
+
+            <!-- Area of rectangle -->
+            <div class="rectangle">
+                <label for="">Area of rectangle =</label>
+                <input type="number" placeholder="Length" id="r-length">
+                <label for="">*</label>
+                <input type="number" placeholder="Width" id="r-width">
+                <label for="">=</label>
+                <label id="r-show">Answer</label>
+                <br>
+                <button id="r-final-button">Calculate</button>
+                <br>
+                <button class="hide" onclick="document.querySelector('.rectangle').style.display='none'">❌Hide</button>
+            </div>
+
+            <!-- Area of circle -->
+            <div class="circle">
+                <label for="">Calculate area of circle =</label>
+                <label for="">π *</label>
+                <input type="number" placeholder="Radius" id="c-radius">
+                <label for="">^2 =</label>
+                <label for="" id="c-show">Answer</label>
+                <br>
+                <button id="c-finalbutton">Calculate</button>
+                <br>
+                <button class="hide" onclick="document.querySelector('.circle').style.display='none'">❌Hide</button>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Triangle calculation
+        const triangleBase = document.getElementById("t-base");
+        const triangleHeight = document.getElementById("t-height");
+        const triangleFinalButton = document.querySelector(".t-final-button");
+        const triangleShowcase = document.getElementById("t-show");
+
+        triangleFinalButton.onclick = function () {
+            const baseValue = parseFloat(triangleBase.value);
+            const heightValue = parseFloat(triangleHeight.value);
+            const ans = 0.5 * baseValue * heightValue;
+            triangleShowcase.textContent = ans;
+        }
+
+        // Rectangle calculation
+        const rectangleLength = document.getElementById("r-length");
+        const rectangleWidth = document.getElementById("r-width");
+        const rectangleFinalButton = document.getElementById("r-final-button");
+        const rectangleShowcase = document.getElementById("r-show");
+
+        rectangleFinalButton.onclick = function () {
+            const lengthValue = parseFloat(rectangleLength.value);
+            const widthValue = parseFloat(rectangleWidth.value);
+            const ans = lengthValue * widthValue;
+            rectangleShowcase.textContent = ans;
+        }
+
+        // Circle calculation
+        const circleRadius = document.getElementById("c-radius");
+        const circleFinalButton = document.getElementById("c-finalbutton");
+        const circleShowcase = document.getElementById("c-show");
+
+        circleFinalButton.onclick = function () {
+            const radiusValue = parseFloat(circleRadius.value);
+            const ans = Math.PI * radiusValue * radiusValue;
+            circleShowcase.textContent = ans;
+        }
+    </script>
+</body>
+
+</html>
