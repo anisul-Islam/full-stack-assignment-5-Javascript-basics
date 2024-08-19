@@ -5,4 +5,4 @@ var width = Number(prompt("Enter the rectangles's width"));
 
 
 
-console.log(`Area of rectangle = Height*Width = ${height}*${width} = ${height*width}`);
+document.write(`Area of rectangle = Height*Width = ${height}*${width} = ${height*width}`);
