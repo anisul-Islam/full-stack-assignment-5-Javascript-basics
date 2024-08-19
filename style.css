@@ -2,16 +2,52 @@
     list-style-type: none;
     margin: 0 auto;
     padding: 0;
+    background-color: aliceblue;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+
 .area-calculators {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
 }
+
+.triangle {
+    width: 50%;
+    height: auto;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: aquamarine;
+}
+.rectangle {
+    width: 50%;
+    height: auto;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: aquamarine;
+}
+
+.circle {
+    width: 50%;
+    height: auto;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: aquamarine;
+}
+p, h1 {
+    padding: 1rem;
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+}
+
