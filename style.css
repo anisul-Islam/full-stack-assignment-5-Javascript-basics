@@ -1,0 +1,47 @@
+.areaCalculator{
+height: 300px;
+width:600px;
+background-color: rgb(167, 23, 145);
+margin: auto;
+padding-top:20px;
+
+}
+.areaCalculator h1 {
+  
+    background-color: rgb(48, 121, 184);
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color:white;
+    margin-top:16px;
+    font-weight: 800;
+  
+}
+.areaCalculator p {
+    text-align: center;
+    padding:4px;
+    color:white;
+    font-size: 1.5rem;
+  font-weight: 700;
+}
+@media (max-width:768px){
+  .areaCalculator{
+    height: 400px;
+    width:300px;
+    }
+    .areaCalculator h1 {
+      width: 60%;
+    font-size: 1.8rem;
+    
+  }
+  .areaCalculator p {
+  
+      font-size: 1.3rem;
+
+  }
+
+
+
+
+
+}
